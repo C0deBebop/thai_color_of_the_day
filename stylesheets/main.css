@@ -1,0 +1,34 @@
+
+* {
+padding: 0;
+margin: 0;    
+}
+
+html {
+box-sizing: border-box;    
+}
+
+body {
+padding: 85px;    
+}
+
+h1 {
+font-size: 12em;
+text-align: center; 
+}
+
+p {  
+font: normal 500 12em "bebas-neue", sans-serif;
+text-align: center; 
+}
+
+h2 {
+font: normal 400 3em "bebas-neue", sans-serif;
+text-align: center; 
+}
+
+@media(max-width: 800px){
+   h1, p {
+     font-size: 6em;
+   }
+}
